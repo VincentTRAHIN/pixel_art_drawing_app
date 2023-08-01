@@ -81,7 +81,7 @@ body {
 }
 
 .reset-button {
-    background-image: url(/img/icon-clear.png);
+    background-image: url(../img/icon-clear.png);
     background-size: contain;
 
 }
