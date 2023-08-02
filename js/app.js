@@ -17,7 +17,8 @@ let app = {
     app.createGrid(8, 50); // Crée une grille initiale de 8x8 cellules avec une taille de 50 pixels
   },
 
-  generateForm: function () { // Génère le formulaire de configuration de la grille
+  // Génère le formulaire de configuration de la grille
+generateForm: function () { // Génère le formulaire de configuration de la grille
     const form = document.querySelector(".configuration"); // Sélectionne le formulaire
 
     const gridSizeInput = document.createElement("input"); // Ajout des champs de saisie pour la taille de la grille et la taille des pixels
