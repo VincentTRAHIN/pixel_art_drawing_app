@@ -14,7 +14,7 @@ let app = {
         app.customColor = event.target.value;
       });// Écouteur d'événement pour le color picker
 
-    app.createGrid(8, 50); // Crée une grille initiale de 8x8 cellules avec une taille de 50 pixels
+    app.createGrid(8, 25); // Crée une grille initiale de 8x8 cellules avec une taille de 25 pixels
   },
 
   // Génère le formulaire de configuration de la grille
